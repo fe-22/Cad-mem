@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        #logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 200px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="C:\Desenvolvimento\comudFHub\Descktop\cadMem\logo_church.png" alt="Logo">
+    <h2>Dados</h2>
+    <label for="search">Pesquisar:</label>
+    <input type="text" id="search" name="search" maxlength="10">
+    <button onclick="searchRandom()">Busca Aleatória</button>
+    <table id="dataTable">
+        <!-- Aqui serão exibidos os dados da planilha -->
+    </table>
+    <script src="exibir_dados.js"></script>
+
+    <script src="form.js"></script>
+
+</body>
+</html>
+
+
+
